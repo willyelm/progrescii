@@ -1,7 +1,7 @@
 # progrescii
 
-[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/progrescii)
-[![npm](https://img.shields.io/npm/l/progrescii.svg?style=flat-square)](https://www.npmjs.com/package/progrescii)
+[![npm](https://img.shields.io/npm/v/progrescii.svg?style=flat-square)](https://www.npmjs.com/package/progrescii)
+[![GitHub license](https://img.shields.io/github/license/willyelm/progrescii.svg?style=flat-square)](https://github.com/willyelm/progrescii)
 
 NodeJS easy graphical progress bars for the terminal/console.
 
