@@ -27,8 +27,11 @@ var p = Progress.create({
 
 // Update the total percentage
 p.update(50);
-// Output Example:
-// Loading ▪▪▪▪▪▫▫▫▫▫ 50% in 0.00s
+```
+
+Output Example: 
+```bash
+Loading ▪▪▪▪▪▫▫▫▫▫ 50% in 0.00s
 ```
 
 ## Customize
@@ -51,8 +54,11 @@ var p = Progress.create({
 
 // Update the total percentage
 p.update(20);
-// Output Example:
-// Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
+```
+
+Output Example: 
+```bash
+Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
 ```
 
 ## Global Customization Customize
@@ -76,6 +82,9 @@ Progress
     total: 11
   })
   .update(10);
-// Output Example:
-// Retrieving Information [================== ] 91% in 0.51s
+```
+
+Output Example: 
+```bash
+Retrieving Information [================== ] 91% in 0.51s
 ```
