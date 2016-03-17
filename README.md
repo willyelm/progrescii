@@ -15,13 +15,14 @@ npm install progrescii
 
 ## Usage
 
+Simple instance creation with default style:
+
 ```javascript
 'use strict';
 
 const Progress = require('progrescii');
 // Create a instance and render the progress bar
 var p = Progress.create({
-  size: 10,
   total: 100
 });
 
@@ -31,10 +32,12 @@ p.update(50);
 
 Output Example: 
 ```bash
-Loading ▪▪▪▪▪▫▫▫▫▫ 50% in 0.00s
+Loading ▪▪▪▪▪▪▪▪▪▪▫▫▫▫▫▫▫▫▫▫ 50% in 0.51s
 ```
 
 ## Customize
+
+Configure template size and style:
 
 ```javascript
 'use strict';
