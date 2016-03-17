@@ -1,5 +1,8 @@
 # progrescii
 
+[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/progrescii)
+[![npm](https://img.shields.io/npm/l/progrescii.svg?style=flat-square)](https://www.npmjs.com/package/progrescii)
+
 NodeJS easy graphical progress bars for the terminal/console.
 
 ## Getting Started
