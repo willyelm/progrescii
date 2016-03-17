@@ -9,13 +9,13 @@ NodeJS easy graphical progress bars for the terminal/console.
 
 ## Installation
 
-```lang:bash
+```bash
 npm install progrescii
 ```
 
 ## Usage
 
-```lang:javascript
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
@@ -33,7 +33,7 @@ p.update(50);
 
 ## Customize
 
-```lang:javascript
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
@@ -59,7 +59,7 @@ Downloading █████░░░░░░░░░░░░░░░ 25% in 
 
 To use the same configuration every time we create a instance of the bar we can configure it as following:
 
-```lang:javascript
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
