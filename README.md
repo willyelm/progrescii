@@ -52,7 +52,7 @@ var p = Progress.create({
 // Update the total percentage
 p.update(20);
 // Output Example:
-Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
+// Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
 ```
 
 ## Global Customization Customize
@@ -77,5 +77,5 @@ Progress
   })
   .update(10);
 // Output Example:
-Retrieving Information [================== ] 91% in 0.51s
+// Retrieving Information [================== ] 91% in 0.51s
 ```
