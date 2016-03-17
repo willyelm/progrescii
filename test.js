@@ -1,16 +1,17 @@
 'use strict';
 
 const Progress = require('./lib/progress');
+// Create a instance and render the progress bar
 
-//Global Config
 Progress.config({
+  template: 'Retrieving Information :b :p% in :ts',
   pending: '░',
-  complete: '█'
+  complete: '█',
+  size: 20
 });
-//Instance
+
 Progress
   .create({
-    size: 20,
-    total: 100
+    total: 11
   })
-  .update(50);
+  .update(10);
