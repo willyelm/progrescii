@@ -62,9 +62,9 @@ To use the same configuration every time we create a instance of the bar we can 
 const Progress = require('progrescii');
 // Global configuration
 Progress.config({
-  template: 'Retrieving Information :b :p% in :ts',
-  pending: '░',
-  complete: '█',
+  template: 'Retrieving Information [:b] :p% in :ts',
+  pending: ' ',
+  complete: '=',
   size: 20
 });
 // Create and update instance
@@ -74,5 +74,5 @@ Progress
   })
   .update(10);
 // Output Example:
-Retrieving Information ██████████████████░ 91% in 0.00s
+Retrieving Information [================== ] 91% in 0.51s
 ```
