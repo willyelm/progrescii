@@ -1,0 +1,26 @@
+{
+  "name": "progrescii",
+  "version": "0.0.1",
+  "description": "NodeJS easy graphical progress bars for the terminal.",
+  "repository": "https://github.com/willyelm/progrescii",
+  "author": "Williams Medina <williams.medinaa@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "terminal",
+    "console",
+    "progressbar",
+    "progress",
+    "color",
+    "graphical",
+    "ascii"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "main": "lib/progress",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^4.6.1"
+  }
+}
