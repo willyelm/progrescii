@@ -10,8 +10,11 @@ Progress.config({
   size: 20
 });
 
-Progress
+var p = Progress
   .create({
     total: 11
-  })
-  .update(10);
+  });
+
+setTimeout(function(){
+  p.update(10);
+}, 500)
