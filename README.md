@@ -64,7 +64,7 @@ Output Example:
 Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
 ```
 
-## Global Customization Customize
+## Global Customization 
 
 To use the same configuration every time we create a instance of the bar we can configure it as following:
 
