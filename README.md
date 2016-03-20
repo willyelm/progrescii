@@ -23,7 +23,7 @@ var p = Progress.create({
 });
 
 // Update the total percentage
-p.update(50);
+p.step(50);
 // Output Example:
 // Loading ▪▪▪▪▪▫▫▫▫▫ 50% in 0.00s
 ```
@@ -47,14 +47,15 @@ var p = Progress.create({
 });
 
 // Update the total percentage
-p.update(20);
+p.step(20);
 // Output Example:
 Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
 ```
 
 ## Global Customization Customize
 
-To use the same configuration every time we create a instance of the bar we can configure it as following:
+To use the same configuration every time we create a instance
+of the bar we can configure it as following:
 
 ```lang:javascript
 'use strict';
@@ -72,7 +73,7 @@ Progress
   .create({
     total: 11
   })
-  .update(10);
+  .step(10);
 // Output Example:
 Retrieving Information [================== ] 91% in 0.51s
 ```
