@@ -1,36 +1,46 @@
 # progrescii
 
+[![npm](https://img.shields.io/npm/v/progrescii.svg?style=flat-square)](https://www.npmjs.com/package/progrescii)
+[![GitHub license](https://img.shields.io/github/license/willyelm/progrescii.svg?style=flat-square)](https://github.com/willyelm/progrescii)
+
 NodeJS easy graphical progress bars for the terminal/console.
 
 ## Getting Started
 
 ## Installation
 
-```lang:bash
+```bash
 npm install progrescii
 ```
 
 ## Usage
 
-```lang:javascript
+Simple instance creation with default style:
+
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
 // Create a instance and render the progress bar
 var p = Progress.create({
-  size: 10,
   total: 100
 });
 
 // Update the total percentage
 p.step(50);
-// Output Example:
-// Loading ▪▪▪▪▪▫▫▫▫▫ 50% in 0.00s
+```
+
+Output Example:
+
+```bash
+Loading ▪▪▪▪▪▪▪▪▪▪▫▫▫▫▫▫▫▫▫▫ 50% in 0.51s
 ```
 
 ## Customize
 
-```lang:javascript
+Configure template size and style:
+
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
@@ -48,16 +58,20 @@ var p = Progress.create({
 
 // Update the total percentage
 p.step(20);
-// Output Example:
+```
+
+Output Example:
+
+```bash
 Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
 ```
 
-## Global Customization Customize
+## Global Customization
 
 To use the same configuration every time we create a instance
 of the bar we can configure it as following:
 
-```lang:javascript
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
@@ -74,6 +88,10 @@ Progress
     total: 11
   })
   .step(10);
-// Output Example:
+```
+
+Output Example:
+
+```bash
 Retrieving Information [================== ] 91% in 0.51s
 ```
