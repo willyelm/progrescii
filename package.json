@@ -1,6 +1,6 @@
 {
   "name": "progrescii",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "NodeJS easy graphical progress bars for the terminal.",
   "repository": "https://github.com/willyelm/progrescii",
   "author": "Williams Medina <williams.medinaa@gmail.com>",
