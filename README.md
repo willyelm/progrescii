@@ -12,7 +12,7 @@ npm install progrescii
 
 ## Usage
 
-```lang:javascript
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
@@ -30,7 +30,7 @@ p.step(50);
 
 ## Customize
 
-```lang:javascript
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
@@ -52,12 +52,12 @@ p.step(20);
 Downloading █████░░░░░░░░░░░░░░░ 25% in 0.00s
 ```
 
-## Global Customization Customize
+## Global Customization
 
 To use the same configuration every time we create a instance
 of the bar we can configure it as following:
 
-```lang:javascript
+```javascript
 'use strict';
 
 const Progress = require('progrescii');
