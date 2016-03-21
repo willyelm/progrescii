@@ -10,12 +10,12 @@ const Progress = require('./lib/progress');
 // });
 
 var p = Progress.create({
-  total: 100
+  total: 0
 });
 
 setTimeout(function(){
-  p.update(20);
+  p.step(20, 50);
   setTimeout(function(){
-    p.update(40);
+    p.step(40, 50);
   }, 500)
 }, 500)
