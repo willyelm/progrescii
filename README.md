@@ -18,16 +18,15 @@ npm install progrescii
 Simple instance creation with default style:
 
 ```javascript
-'use strict';
-
-const Progress = require('progrescii');
+'use strict'
+const Progress = require('progrescii')
 // Create a instance and render the progress bar
 var p = Progress.create({
   total: 100
-});
+})
 
 // Update the total percentage
-p.step(50);
+p.step(50)
 ```
 
 Output Example:
@@ -41,9 +40,8 @@ Loading ▪▪▪▪▪▪▪▪▪▪▫▫▫▫▫▫▫▫▫▫ 50% in 0.51
 Configure template size and style:
 
 ```javascript
-'use strict';
-
-const Progress = require('progrescii');
+'use strict'
+const Progress = require('progrescii')
 var p = Progress.create({
   size: 20,
   total: 40,
@@ -54,10 +52,10 @@ var p = Progress.create({
   //:b progress bar text
   //:p percentage Number
   //:t execution time
-});
+})
 
 // Update the total percentage
-p.step(20);
+p.step(20)
 ```
 
 Output Example:
@@ -72,16 +70,15 @@ To use the same configuration every time we create a instance
 of the bar we can configure it as following:
 
 ```javascript
-'use strict';
-
-const Progress = require('progrescii');
+'use strict'
+const Progress = require('progrescii')
 // Global configuration
 Progress.config({
   template: 'Retrieving Information [:b] :p% in :ts',
   pending: ' ',
   complete: '=',
   size: 20
-});
+})
 // Create and update instance
 Progress
   .create({
