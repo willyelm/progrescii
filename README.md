@@ -25,8 +25,12 @@ var p = Progress.create({
   total: 100
 })
 
-// Update the total percentage
+// Add to the total percentage so far
 p.step(50)
+
+// Set the total percentage so far
+p.set(75)
+
 ```
 
 Output Example:
